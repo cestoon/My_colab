@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type="http:///de/tudarmstadt/ukp/clarin/webanno/api/type.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/transform/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type11="http:///org/dkpro/core/api/xml/type.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type10="http:///org/dkpro/core/api/pdf/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:custom="http:///custom.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmlns:custom2="http:///webanno/custom.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <type3:DocumentMetaData xmi:id="8" sofa="1" begin="0" end="1024" language="x-unspecified" documentTitle="23_Product_quality_control_(imperative).txt" documentId="admin" documentUri="sentences_annotation_v2/admin" collectionId="sentences_annotation_v2/admin" documentBaseUri="sentences_annotation_v2" isLastSegment="false"/>
+    <type5:Sentence xmi:id="19" sofa="1" begin="1" end="98"/>
+    <type5:Sentence xmi:id="24" sofa="1" begin="99" end="148"/>
+    <type5:Sentence xmi:id="29" sofa="1" begin="149" end="237"/>
+    <type5:Sentence xmi:id="34" sofa="1" begin="237" end="335"/>
+    <type5:Sentence xmi:id="39" sofa="1" begin="336" end="453"/>
+    <type5:Sentence xmi:id="44" sofa="1" begin="454" end="500"/>
+    <type5:Sentence xmi:id="49" sofa="1" begin="501" end="586"/>
+    <type5:Sentence xmi:id="54" sofa="1" begin="587" end="689"/>
+    <type5:Sentence xmi:id="59" sofa="1" begin="690" end="803"/>
+    <type5:Sentence xmi:id="64" sofa="1" begin="803" end="927"/>
+    <type5:Sentence xmi:id="69" sofa="1" begin="928" end="1024"/>
+    <type5:Token xmi:id="74" sofa="1" begin="1" end="4" order="0"/>
+    <type5:Token xmi:id="87" sofa="1" begin="5" end="12" order="0"/>
+    <type5:Token xmi:id="100" sofa="1" begin="13" end="19" order="0"/>
+    <type5:Token xmi:id="113" sofa="1" begin="20" end="24" order="0"/>
+    <type5:Token xmi:id="126" sofa="1" begin="25" end="28" order="0"/>
+    <type5:Token xmi:id="139" sofa="1" begin="29" end="30" order="0"/>
+    <type5:Token xmi:id="152" sofa="1" begin="30" end="37" order="0"/>
+    <type5:Token xmi:id="165" sofa="1" begin="38" end="46" order="0"/>
+    <type5:Token xmi:id="178" sofa="1" begin="47" end="51" order="0"/>
+    <type5:Token xmi:id="191" sofa="1" begin="52" end="54" order="0"/>
+    <type5:Token xmi:id="204" sofa="1" begin="55" end="56" order="0"/>
+    <type5:Token xmi:id="217" sofa="1" begin="56" end="61" order="0"/>
+    <type5:Token xmi:id="230" sofa="1" begin="62" end="63" order="0"/>
+    <type5:Token xmi:id="243" sofa="1" begin="63" end="68" order="0"/>
+    <type5:Token xmi:id="256" sofa="1" begin="69" end="70" order="0"/>
+    <type5:Token xmi:id="269" sofa="1" begin="71" end="78" order="0"/>
+    <type5:Token xmi:id="282" sofa="1" begin="79" end="85" order="0"/>
+    <type5:Token xmi:id="295" sofa="1" begin="86" end="88" order="0"/>
+    <type5:Token xmi:id="308" sofa="1" begin="89" end="90" order="0"/>
+    <type5:Token xmi:id="321" sofa="1" begin="90" end="97" order="0"/>
+    <type5:Token xmi:id="334" sofa="1" begin="97" end="98" order="0"/>
+    <type5:Token xmi:id="347" sofa="1" begin="99" end="106" order="0"/>
+    <type5:Token xmi:id="360" sofa="1" begin="107" end="111" order="0"/>
+    <type5:Token xmi:id="373" sofa="1" begin="112" end="113" order="0"/>
+    <type5:Token xmi:id="386" sofa="1" begin="113" end="121" order="0"/>
+    <type5:Token xmi:id="399" sofa="1" begin="122" end="123" order="0"/>
+    <type5:Token xmi:id="412" sofa="1" begin="123" end="128" order="0"/>
+    <type5:Token xmi:id="425" sofa="1" begin="129" end="130" order="0"/>
+    <type5:Token xmi:id="438" sofa="1" begin="130" end="132" order="0"/>
+    <type5:Token xmi:id="451" sofa="1" begin="133" end="136" order="0"/>
+    <type5:Token xmi:id="464" sofa="1" begin="137" end="140" order="0"/>
+    <type5:Token xmi:id="477" sofa="1" begin="141" end="147" order="0"/>
+    <type5:Token xmi:id="490" sofa="1" begin="147" end="148" order="0"/>
+    <type5:Token xmi:id="503" sofa="1" begin="149" end="155" order="0"/>
+    <type5:Token xmi:id="516" sofa="1" begin="156" end="163" order="0"/>
+    <type5:Token xmi:id="529" sofa="1" begin="164" end="167" order="0"/>
+    <type5:Token xmi:id="542" sofa="1" begin="168" end="173" order="0"/>
+    <type5:Token xmi:id="555" sofa="1" begin="173" end="174" order="0"/>
+    <type5:Token xmi:id="568" sofa="1" begin="175" end="176" order="0"/>
+    <type5:Token xmi:id="581" sofa="1" begin="176" end="181" order="0"/>
+    <type5:Token xmi:id="594" sofa="1" begin="182" end="183" order="0"/>
+    <type5:Token xmi:id="607" sofa="1" begin="183" end="187" order="0"/>
+    <type5:Token xmi:id="620" sofa="1" begin="188" end="189" order="0"/>
+    <type5:Token xmi:id="633" sofa="1" begin="189" end="196" order="0"/>
+    <type5:Token xmi:id="646" sofa="1" begin="197" end="198" order="0"/>
+    <type5:Token xmi:id="659" sofa="1" begin="199" end="203" order="0"/>
+    <type5:Token xmi:id="672" sofa="1" begin="204" end="205" order="0"/>
+    <type5:Token xmi:id="685" sofa="1" begin="205" end="207" order="0"/>
+    <type5:Token xmi:id="698" sofa="1" begin="208" end="209" order="0"/>
+    <type5:Token xmi:id="711" sofa="1" begin="210" end="216" order="0"/>
+    <type5:Token xmi:id="724" sofa="1" begin="217" end="224" order="0"/>
+    <type5:Token xmi:id="737" sofa="1" begin="225" end="226" order="0"/>
+    <type5:Token xmi:id="750" sofa="1" begin="226" end="234" order="0"/>
+    <type5:Token xmi:id="763" sofa="1" begin="234" end="235" order="0"/>
+    <type5:Token xmi:id="776" sofa="1" begin="236" end="237" order="0"/>
+    <type5:Token xmi:id="789" sofa="1" begin="237" end="244" order="0"/>
+    <type5:Token xmi:id="802" sofa="1" begin="245" end="246" order="0"/>
+    <type5:Token xmi:id="815" sofa="1" begin="246" end="250" order="0"/>
+    <type5:Token xmi:id="828" sofa="1" begin="251" end="255" order="0"/>
+    <type5:Token xmi:id="841" sofa="1" begin="256" end="257" order="0"/>
+    <type5:Token xmi:id="854" sofa="1" begin="257" end="261" order="0"/>
+    <type5:Token xmi:id="867" sofa="1" begin="262" end="265" order="0"/>
+    <type5:Token xmi:id="880" sofa="1" begin="266" end="274" order="0"/>
+    <type5:Token xmi:id="893" sofa="1" begin="274" end="275" order="0"/>
+    <type5:Token xmi:id="906" sofa="1" begin="276" end="278" order="0"/>
+    <type5:Token xmi:id="919" sofa="1" begin="279" end="283" order="0"/>
+    <type5:Token xmi:id="932" sofa="1" begin="284" end="286" order="0"/>
+    <type5:Token xmi:id="945" sofa="1" begin="287" end="291" order="0"/>
+    <type5:Token xmi:id="958" sofa="1" begin="292" end="293" order="0"/>
+    <type5:Token xmi:id="971" sofa="1" begin="293" end="303" order="0"/>
+    <type5:Token xmi:id="984" sofa="1" begin="304" end="311" order="0"/>
+    <type5:Token xmi:id="997" sofa="1" begin="312" end="316" order="0"/>
+    <type5:Token xmi:id="1010" sofa="1" begin="317" end="324" order="0"/>
+    <type5:Token xmi:id="1023" sofa="1" begin="325" end="334" order="0"/>
+    <type5:Token xmi:id="1036" sofa="1" begin="334" end="335" order="0"/>
+    <type5:Token xmi:id="1049" sofa="1" begin="336" end="340" order="0"/>
+    <type5:Token xmi:id="1062" sofa="1" begin="341" end="344" order="0"/>
+    <type5:Token xmi:id="1075" sofa="1" begin="345" end="352" order="0"/>
+    <type5:Token xmi:id="1088" sofa="1" begin="353" end="355" order="0"/>
+    <type5:Token xmi:id="1101" sofa="1" begin="356" end="360" order="0"/>
+    <type5:Token xmi:id="1114" sofa="1" begin="360" end="361" order="0"/>
+    <type5:Token xmi:id="1127" sofa="1" begin="362" end="363" order="0"/>
+    <type5:Token xmi:id="1140" sofa="1" begin="363" end="370" order="0"/>
+    <type5:Token xmi:id="1153" sofa="1" begin="371" end="375" order="0"/>
+    <type5:Token xmi:id="1166" sofa="1" begin="376" end="378" order="0"/>
+    <type5:Token xmi:id="1179" sofa="1" begin="379" end="387" order="0"/>
+    <type5:Token xmi:id="1192" sofa="1" begin="388" end="389" order="0"/>
+    <type5:Token xmi:id="1205" sofa="1" begin="389" end="393" order="0"/>
+    <type5:Token xmi:id="1218" sofa="1" begin="394" end="395" order="0"/>
+    <type5:Token xmi:id="1231" sofa="1" begin="396" end="402" order="0"/>
+    <type5:Token xmi:id="1244" sofa="1" begin="403" end="409" order="0"/>
+    <type5:Token xmi:id="1257" sofa="1" begin="410" end="411" order="0"/>
+    <type5:Token xmi:id="1270" sofa="1" begin="411" end="418" order="0"/>
+    <type5:Token xmi:id="1283" sofa="1" begin="419" end="422" order="0"/>
+    <type5:Token xmi:id="1296" sofa="1" begin="423" end="429" order="0"/>
+    <type5:Token xmi:id="1309" sofa="1" begin="430" end="432" order="0"/>
+    <type5:Token xmi:id="1322" sofa="1" begin="433" end="438" order="0"/>
+    <type5:Token xmi:id="1335" sofa="1" begin="439" end="440" order="0"/>
+    <type5:Token xmi:id="1348" sofa="1" begin="440" end="443" order="0"/>
+    <type5:Token xmi:id="1361" sofa="1" begin="444" end="452" order="0"/>
+    <type5:Token xmi:id="1374" sofa="1" begin="452" end="453" order="0"/>
+    <type5:Token xmi:id="1387" sofa="1" begin="454" end="458" order="0"/>
+    <type5:Token xmi:id="1400" sofa="1" begin="459" end="466" order="0"/>
+    <type5:Token xmi:id="1413" sofa="1" begin="467" end="468" order="0"/>
+    <type5:Token xmi:id="1426" sofa="1" begin="468" end="473" order="0"/>
+    <type5:Token xmi:id="1439" sofa="1" begin="474" end="476" order="0"/>
+    <type5:Token xmi:id="1452" sofa="1" begin="477" end="478" order="0"/>
+    <type5:Token xmi:id="1465" sofa="1" begin="478" end="486" order="0"/>
+    <type5:Token xmi:id="1478" sofa="1" begin="487" end="490" order="0"/>
+    <type5:Token xmi:id="1491" sofa="1" begin="491" end="499" order="0"/>
+    <type5:Token xmi:id="1504" sofa="1" begin="499" end="500" order="0"/>
+    <type5:Token xmi:id="1517" sofa="1" begin="501" end="503" order="0"/>
+    <type5:Token xmi:id="1530" sofa="1" begin="504" end="507" order="0"/>
+    <type5:Token xmi:id="1543" sofa="1" begin="508" end="515" order="0"/>
+    <type5:Token xmi:id="1556" sofa="1" begin="516" end="519" order="0"/>
+    <type5:Token xmi:id="1569" sofa="1" begin="520" end="529" order="0"/>
+    <type5:Token xmi:id="1582" sofa="1" begin="530" end="534" order="0"/>
+    <type5:Token xmi:id="1595" sofa="1" begin="535" end="543" order="0"/>
+    <type5:Token xmi:id="1608" sofa="1" begin="543" end="544" order="0"/>
+    <type5:Token xmi:id="1621" sofa="1" begin="545" end="550" order="0"/>
+    <type5:Token xmi:id="1634" sofa="1" begin="551" end="554" order="0"/>
+    <type5:Token xmi:id="1647" sofa="1" begin="555" end="556" order="0"/>
+    <type5:Token xmi:id="1660" sofa="1" begin="556" end="559" order="0"/>
+    <type5:Token xmi:id="1673" sofa="1" begin="560" end="561" order="0"/>
+    <type5:Token xmi:id="1686" sofa="1" begin="561" end="568" order="0"/>
+    <type5:Token xmi:id="1699" sofa="1" begin="569" end="570" order="0"/>
+    <type5:Token xmi:id="1712" sofa="1" begin="570" end="573" order="0"/>
+    <type5:Token xmi:id="1725" sofa="1" begin="574" end="585" order="0"/>
+    <type5:Token xmi:id="1738" sofa="1" begin="585" end="586" order="0"/>
+    <type5:Token xmi:id="1751" sofa="1" begin="587" end="589" order="0"/>
+    <type5:Token xmi:id="1764" sofa="1" begin="590" end="593" order="0"/>
+    <type5:Token xmi:id="1777" sofa="1" begin="594" end="601" order="0"/>
+    <type5:Token xmi:id="1790" sofa="1" begin="602" end="604" order="0"/>
+    <type5:Token xmi:id="1803" sofa="1" begin="605" end="608" order="0"/>
+    <type5:Token xmi:id="1816" sofa="1" begin="609" end="619" order="0"/>
+    <type5:Token xmi:id="1829" sofa="1" begin="620" end="622" order="0"/>
+    <type5:Token xmi:id="1842" sofa="1" begin="623" end="626" order="0"/>
+    <type5:Token xmi:id="1855" sofa="1" begin="627" end="631" order="0"/>
+    <type5:Token xmi:id="1868" sofa="1" begin="632" end="634" order="0"/>
+    <type5:Token xmi:id="1881" sofa="1" begin="635" end="637" order="0"/>
+    <type5:Token xmi:id="1894" sofa="1" begin="638" end="639" order="0"/>
+    <type5:Token xmi:id="1907" sofa="1" begin="639" end="644" order="0"/>
+    <type5:Token xmi:id="1920" sofa="1" begin="644" end="646" order="0"/>
+    <type5:Token xmi:id="1933" sofa="1" begin="646" end="647" order="0"/>
+    <type5:Token xmi:id="1946" sofa="1" begin="648" end="657" order="0"/>
+    <type5:Token xmi:id="1959" sofa="1" begin="657" end="658" order="0"/>
+    <type5:Token xmi:id="1972" sofa="1" begin="659" end="662" order="0"/>
+    <type5:Token xmi:id="1985" sofa="1" begin="663" end="668" order="0"/>
+    <type5:Token xmi:id="1998" sofa="1" begin="669" end="670" order="0"/>
+    <type5:Token xmi:id="2011" sofa="1" begin="670" end="674" order="0"/>
+    <type5:Token xmi:id="2024" sofa="1" begin="675" end="677" order="0"/>
+    <type5:Token xmi:id="2037" sofa="1" begin="678" end="688" order="0"/>
+    <type5:Token xmi:id="2050" sofa="1" begin="688" end="689" order="0"/>
+    <type5:Token xmi:id="2063" sofa="1" begin="690" end="692" order="0"/>
+    <type5:Token xmi:id="2076" sofa="1" begin="693" end="696" order="0"/>
+    <type5:Token xmi:id="2089" sofa="1" begin="697" end="704" order="0"/>
+    <type5:Token xmi:id="2102" sofa="1" begin="705" end="708" order="0"/>
+    <type5:Token xmi:id="2115" sofa="1" begin="709" end="714" order="0"/>
+    <type5:Token xmi:id="2128" sofa="1" begin="715" end="716" order="0"/>
+    <type5:Token xmi:id="2141" sofa="1" begin="716" end="723" order="0"/>
+    <type5:Token xmi:id="2154" sofa="1" begin="724" end="725" order="0"/>
+    <type5:Token xmi:id="2167" sofa="1" begin="725" end="729" order="0"/>
+    <type5:Token xmi:id="2180" sofa="1" begin="730" end="731" order="0"/>
+    <type5:Token xmi:id="2193" sofa="1" begin="731" end="735" order="0"/>
+    <type5:Token xmi:id="2206" sofa="1" begin="736" end="739" order="0"/>
+    <type5:Token xmi:id="2219" sofa="1" begin="740" end="747" order="0"/>
+    <type5:Token xmi:id="2232" sofa="1" begin="748" end="750" order="0"/>
+    <type5:Token xmi:id="2245" sofa="1" begin="751" end="752" order="0"/>
+    <type5:Token xmi:id="2258" sofa="1" begin="752" end="757" order="0"/>
+    <type5:Token xmi:id="2271" sofa="1" begin="758" end="763" order="0"/>
+    <type5:Token xmi:id="2284" sofa="1" begin="763" end="764" order="0"/>
+    <type5:Token xmi:id="2297" sofa="1" begin="765" end="766" order="0"/>
+    <type5:Token xmi:id="2310" sofa="1" begin="766" end="769" order="0"/>
+    <type5:Token xmi:id="2323" sofa="1" begin="770" end="774" order="0"/>
+    <type5:Token xmi:id="2336" sofa="1" begin="775" end="779" order="0"/>
+    <type5:Token xmi:id="2349" sofa="1" begin="780" end="787" order="0"/>
+    <type5:Token xmi:id="2362" sofa="1" begin="788" end="791" order="0"/>
+    <type5:Token xmi:id="2375" sofa="1" begin="792" end="800" order="0"/>
+    <type5:Token xmi:id="2388" sofa="1" begin="800" end="801" order="0"/>
+    <type5:Token xmi:id="2401" sofa="1" begin="802" end="803" order="0"/>
+    <type5:Token xmi:id="2414" sofa="1" begin="803" end="808" order="0"/>
+    <type5:Token xmi:id="2427" sofa="1" begin="809" end="813" order="0"/>
+    <type5:Token xmi:id="2440" sofa="1" begin="814" end="815" order="0"/>
+    <type5:Token xmi:id="2453" sofa="1" begin="815" end="821" order="0"/>
+    <type5:Token xmi:id="2466" sofa="1" begin="822" end="829" order="0"/>
+    <type5:Token xmi:id="2479" sofa="1" begin="830" end="833" order="0"/>
+    <type5:Token xmi:id="2492" sofa="1" begin="834" end="836" order="0"/>
+    <type5:Token xmi:id="2505" sofa="1" begin="837" end="839" order="0"/>
+    <type5:Token xmi:id="2518" sofa="1" begin="840" end="845" order="0"/>
+    <type5:Token xmi:id="2531" sofa="1" begin="846" end="849" order="0"/>
+    <type5:Token xmi:id="2544" sofa="1" begin="850" end="856" order="0"/>
+    <type5:Token xmi:id="2557" sofa="1" begin="857" end="858" order="0"/>
+    <type5:Token xmi:id="2570" sofa="1" begin="858" end="866" order="0"/>
+    <type5:Token xmi:id="2583" sofa="1" begin="867" end="869" order="0"/>
+    <type5:Token xmi:id="2596" sofa="1" begin="870" end="873" order="0"/>
+    <type5:Token xmi:id="2609" sofa="1" begin="874" end="886" order="0"/>
+    <type5:Token xmi:id="2622" sofa="1" begin="886" end="887" order="0"/>
+    <type5:Token xmi:id="2635" sofa="1" begin="888" end="890" order="0"/>
+    <type5:Token xmi:id="2648" sofa="1" begin="891" end="892" order="0"/>
+    <type5:Token xmi:id="2661" sofa="1" begin="892" end="900" order="0"/>
+    <type5:Token xmi:id="2674" sofa="1" begin="901" end="902" order="0"/>
+    <type5:Token xmi:id="2687" sofa="1" begin="903" end="907" order="0"/>
+    <type5:Token xmi:id="2700" sofa="1" begin="908" end="910" order="0"/>
+    <type5:Token xmi:id="2713" sofa="1" begin="911" end="919" order="0"/>
+    <type5:Token xmi:id="2726" sofa="1" begin="920" end="926" order="0"/>
+    <type5:Token xmi:id="2739" sofa="1" begin="926" end="927" order="0"/>
+    <type5:Token xmi:id="2752" sofa="1" begin="928" end="930" order="0"/>
+    <type5:Token xmi:id="2765" sofa="1" begin="931" end="937" order="0"/>
+    <type5:Token xmi:id="2778" sofa="1" begin="938" end="941" order="0"/>
+    <type5:Token xmi:id="2791" sofa="1" begin="942" end="947" order="0"/>
+    <type5:Token xmi:id="2804" sofa="1" begin="947" end="948" order="0"/>
+    <type5:Token xmi:id="2817" sofa="1" begin="949" end="950" order="0"/>
+    <type5:Token xmi:id="2830" sofa="1" begin="950" end="955" order="0"/>
+    <type5:Token xmi:id="2843" sofa="1" begin="956" end="961" order="0"/>
+    <type5:Token xmi:id="2856" sofa="1" begin="962" end="966" order="0"/>
+    <type5:Token xmi:id="2869" sofa="1" begin="967" end="974" order="0"/>
+    <type5:Token xmi:id="2882" sofa="1" begin="975" end="978" order="0"/>
+    <type5:Token xmi:id="2895" sofa="1" begin="979" end="985" order="0"/>
+    <type5:Token xmi:id="2908" sofa="1" begin="986" end="992" order="0"/>
+    <type5:Token xmi:id="2921" sofa="1" begin="993" end="994" order="0"/>
+    <type5:Token xmi:id="2934" sofa="1" begin="994" end="1004" order="0"/>
+    <type5:Token xmi:id="2947" sofa="1" begin="1005" end="1008" order="0"/>
+    <type5:Token xmi:id="2960" sofa="1" begin="1009" end="1017" order="0"/>
+    <type5:Token xmi:id="2973" sofa="1" begin="1018" end="1023" order="0"/>
+    <type5:Token xmi:id="2986" sofa="1" begin="1023" end="1024" order="0"/>
+    <custom2:Tag xmi:id="3049" sofa="1" begin="1" end="98" Num="0"/>
+    <custom2:Tag xmi:id="3044" sofa="1" begin="99" end="148" Num="0"/>
+    <custom2:Tag xmi:id="3039" sofa="1" begin="149" end="237" Num="0"/>
+    <custom2:Tag xmi:id="3034" sofa="1" begin="237" end="335" Num="1"/>
+    <custom2:Tag xmi:id="3029" sofa="1" begin="336" end="453" Num="0"/>
+    <custom2:Tag xmi:id="3024" sofa="1" begin="454" end="500" Num="0"/>
+    <custom2:Tag xmi:id="3019" sofa="1" begin="501" end="586" Num="0"/>
+    <custom2:Tag xmi:id="3014" sofa="1" begin="587" end="689" Num="0"/>
+    <custom2:Tag xmi:id="3009" sofa="1" begin="690" end="803" Num="0"/>
+    <custom2:Tag xmi:id="3004" sofa="1" begin="803" end="927" Num="0"/>
+    <custom2:Tag xmi:id="2999" sofa="1" begin="928" end="1024" Num="0"/>
+    <custom2:Reason xmi:id="3054" sofa="1" begin="1" end="98" reason="Clearly defines the process initiation, specifying the involved entities and action."/>
+    <custom2:Reason xmi:id="3059" sofa="1" begin="99" end="148" reason="Describes a straightforward notification step with no ambiguities."/>
+    <custom2:Reason xmi:id="3104" sofa="1" begin="149" end="237" reason="Specifies a clear prerequisite action before testing begins."/>
+    <custom2:Reason xmi:id="3099" sofa="1" begin="237" end="335" reason="The parallel testing process involving Eurofarms could introduce ambiguity about the sequence and coordination between Ellipse and Eurofarms."/>
+    <custom2:Reason xmi:id="3094" sofa="1" begin="336" end="453" reason="Clearly outlines the steps following the completion of testing, specifying the report compilation and approval process."/>
+    <custom2:Reason xmi:id="3089" sofa="1" begin="454" end="500" reason="Describes the purpose of the previous step, ensuring clarity in the process flow."/>
+    <custom2:Reason xmi:id="3084" sofa="1" begin="501" end="586" reason="Clearly states a conditional action based on the evaluation results."/>
+    <custom2:Reason xmi:id="3079" sofa="1" begin="587" end="689" reason="Specifies a clear consequence for failing to meet standards, with no ambiguity."/>
+    <custom2:Reason xmi:id="3074" sofa="1" begin="690" end="803" reason="Clearly describes the subsequent steps for publishing sound results."/>
+    <custom2:Reason xmi:id="3069" sofa="1" begin="803" end="927" reason="Specifies the verification step by Puori, outlining clear possible outcomes."/>
+    <custom2:Reason xmi:id="3064" sofa="1" begin="928" end="1024" reason="Clearly describes the corrective action and the requirement for republishing, ensuring process clarity."/>
+    <custom2:AmbiguityTag xmi:id="3109" sofa="1" begin="1" end="98">
+        <TS>T1_false</TS>
+        <TS>T2_false</TS>
+        <TS>T3_false</TS>
+        <TS>T4_false</TS>
+    </custom2:AmbiguityTag>
+    <custom2:AmbiguityTag xmi:id="3114" sofa="1" begin="99" end="148">
+        <TS>T1_false</TS>
+        <TS>T2_false</TS>
+        <TS>T3_false</TS>
+        <TS>T4_false</TS>
+    </custom2:AmbiguityTag>
+    <custom2:AmbiguityTag xmi:id="3119" sofa="1" begin="149" end="237">
+        <TS>T1_false</TS>
+        <TS>T2_false</TS>
+        <TS>T3_false</TS>
+        <TS>T4_false</TS>
+    </custom2:AmbiguityTag>
+    <custom2:AmbiguityTag xmi:id="3124" sofa="1" begin="237" end="335">
+        <TS>T1_true</TS>
+        <TS>T2_false</TS>
+        <TS>T3_false</TS>
+        <TS>T4_false</TS>
+    </custom2:AmbiguityTag>
+    <custom2:AmbiguityTag xmi:id="3129" sofa="1" begin="336" end="453">
+        <TS>T1_false</TS>
+        <TS>T2_false</TS>
+        <TS>T3_false</TS>
+        <TS>T4_false</TS>
+    </custom2:AmbiguityTag>
+    <custom2:AmbiguityTag xmi:id="3134" sofa="1" begin="454" end="500">
+        <TS>T1_false</TS>
+        <TS>T2_false</TS>
+        <TS>T3_false</TS>
+        <TS>T4_false</TS>
+    </custom2:AmbiguityTag>
+    <custom2:AmbiguityTag xmi:id="3139" sofa="1" begin="501" end="586">
+        <TS>T1_false</TS>
+        <TS>T2_false</TS>
+        <TS>T3_false</TS>
+        <TS>T4_false</TS>
+    </custom2:AmbiguityTag>
+    <custom2:AmbiguityTag xmi:id="3144" sofa="1" begin="587" end="689">
+        <TS>T1_false</TS>
+        <TS>T2_false</TS>
+        <TS>T3_false</TS>
+        <TS>T4_false</TS>
+    </custom2:AmbiguityTag>
+    <custom2:AmbiguityTag xmi:id="3149" sofa="1" begin="690" end="803">
+        <TS>T1_false</TS>
+        <TS>T2_false</TS>
+        <TS>T3_false</TS>
+        <TS>T4_false</TS>
+    </custom2:AmbiguityTag>
+    <custom2:AmbiguityTag xmi:id="3154" sofa="1" begin="803" end="927">
+        <TS>T1_false</TS>
+        <TS>T2_false</TS>
+        <TS>T3_false</TS>
+        <TS>T4_false</TS>
+    </custom2:AmbiguityTag>
+    <custom2:AmbiguityTag xmi:id="3159" sofa="1" begin="928" end="1024">
+        <TS>T1_false</TS>
+        <TS>T2_false</TS>
+        <TS>T3_false</TS>
+        <TS>T4_false</TS>
+    </custom2:AmbiguityTag>
+    <type:LayerDefinition xmi:id="3237" name="webanno.custom.AmbiguityTag" uiName="Ambiguity_Type"/>
+    <type:LayerDefinition xmi:id="3230" name="custom.SentenceLabel" uiName="Sentence Label"/>
+    <type:LayerDefinition xmi:id="3244" name="webanno.custom.Reason" uiName="Reason"/>
+    <type:LayerDefinition xmi:id="3251" name="webanno.custom.Tag" uiName="Ambiguity_Num"/>
+    <type:FeatureDefinition xmi:id="3247" layer="3244" name="reason" uiName="reason"/>
+    <type:FeatureDefinition xmi:id="3233" layer="3230" name="label" uiName="Label"/>
+    <type:FeatureDefinition xmi:id="3240" layer="3237" name="TS" uiName="TS"/>
+    <type:FeatureDefinition xmi:id="3254" layer="3251" name="Num" uiName="Num"/>
+    <type3:TagsetDescription xmi:id="3258" sofa="1" begin="0" end="0" layer="webanno.custom.AmbiguityTag" name="Sentence labels" input="false"/>
+    <type3:TagsetDescription xmi:id="3271" sofa="1" begin="0" end="0" layer="custom.SentenceLabel" name="Sentence labels" input="false"/>
+    <cas:Sofa xmi:id="1" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;The process starts when the ​storage facility used by ​Puori ​sends a product sample to ​Ellipse. Ellipse then ​notifies ​Puori ​of the new sample. Before testing can begin, ​Puori ​then ​request a test ​of a sample through ​Ellipse​. ​Ellipse ​must then ​test the product​, as well as have ​additional testing done through Eurofarms. When all testing is done, ​results will be compiled ​into a report before ​sending the report to Puori ​for approval. This enables ​Puori to ​evaluate the results​. If the results are different than expected, Puori may ​ask ​Ellipse ​for re-testing​. If the results of the re-testing do not live up to ​Puori’​s standards, the batch ​will be discarded​. If the results are sound ​Ellipse ​must ​send the results to ​Clean Label, ​who must then publish the results​. ​Puori then ​checks whether all is in order and either ​approves of the publication​, or ​compiles a list of possible errors. If errors are found, ​Clean Label must correct the errors before ​publishing the results​ again."/>
+    <cas:View sofa="1" members="8 19 24 29 34 39 44 49 54 59 64 69 74 87 100 113 126 139 152 165 178 191 204 217 230 243 256 269 282 295 308 321 334 347 360 373 386 399 412 425 438 451 464 477 490 503 516 529 542 555 568 581 594 607 620 633 646 659 672 685 698 711 724 737 750 763 776 789 802 815 828 841 854 867 880 893 906 919 932 945 958 971 984 997 1010 1023 1036 1049 1062 1075 1088 1101 1114 1127 1140 1153 1166 1179 1192 1205 1218 1231 1244 1257 1270 1283 1296 1309 1322 1335 1348 1361 1374 1387 1400 1413 1426 1439 1452 1465 1478 1491 1504 1517 1530 1543 1556 1569 1582 1595 1608 1621 1634 1647 1660 1673 1686 1699 1712 1725 1738 1751 1764 1777 1790 1803 1816 1829 1842 1855 1868 1881 1894 1907 1920 1933 1946 1959 1972 1985 1998 2011 2024 2037 2050 2063 2076 2089 2102 2115 2128 2141 2154 2167 2180 2193 2206 2219 2232 2245 2258 2271 2284 2297 2310 2323 2336 2349 2362 2375 2388 2401 2414 2427 2440 2453 2466 2479 2492 2505 2518 2531 2544 2557 2570 2583 2596 2609 2622 2635 2648 2661 2674 2687 2700 2713 2726 2739 2752 2765 2778 2791 2804 2817 2830 2843 2856 2869 2882 2895 2908 2921 2934 2947 2960 2973 2986 3049 3044 3039 3034 3029 3024 3019 3014 3009 3004 2999 3054 3059 3104 3099 3094 3089 3084 3079 3074 3069 3064 3109 3114 3119 3124 3129 3134 3139 3144 3149 3154 3159 3237 3230 3244 3251 3247 3233 3240 3254 3258 3271"/>
+</xmi:XMI>
